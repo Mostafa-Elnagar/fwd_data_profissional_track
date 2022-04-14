@@ -26,7 +26,7 @@ def get_filters():
     print('\nHello! Let\'s explore some US bikeshare data!')
     print('NOTE: if you want to exit at any time press(ctrl + c).\n')
     
-    # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
+    # get user input for city (chicago, new york city, washington).
     while True:
         city = input("Enter the city to explore(Chicago, New York, Washington): ").strip().lower()
         if city not in CITY_DATA:
