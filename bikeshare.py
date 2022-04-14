@@ -95,14 +95,12 @@ def load_data(city, month, day):
 
 def tabular_print(*to_disp):
     """Displays the arguments in a table like format."""
-    n = len(to_disp)
-    st = "{:35} "*n
+    st = "{:35} " * len(to_disp)
     print(st.format(*to_disp))
 
 def readable_time(t: float) -> str:
-        """Returns time in a human-readable format"""
-        t = round(t)
-        return str(datetime.timedelta(seconds=t)) 
+	"""Returns time in a human-readable format"""
+	return str(datetime.timedelta(seconds=round(t))) 
     
 def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
