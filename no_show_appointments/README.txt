@@ -28,3 +28,8 @@ first we will define waiting time as the number of days from registering for an 
 - 76.26% of people who have a scholarship show up and 80.19% of people who have no scholarship show up.
 - 11.55% of the people that didn't show up have a scholarship thats higher than those who did show up by 2.16% and this difference is relatively big.
 - 82% of patients were having a special condition and show up and only 18% didn't show up.
+
+## Limitations
+- only a very small proportion of the data is diagnosed with special cases and that makes the results not reliable.
+- the documentation of the dataset was ambigous regarding the appointment_day and scheduled_day columns so it might affect the conclusions.
+- in the handicap column there was values greater than one so we casted it to 1s this might be incorrect and affect the conclusions.
